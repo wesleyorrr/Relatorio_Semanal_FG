@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Relatório Semanal</title>
+</head>
+<body>
+  <h1>Relatório Semanal</h1>
+  <form id="relatorioForm">
+    <label for="nomeFG">Nome do Family Group:</label>
+    <input type="text" id="nomeFG" name="nomeFG" required>
+
+    <label for="servoLider">Nome do Servo Líder:</label>
+    <input type="text" id="servoLider" name="servoLider" required>
+
+    <label for="servoTreinamento">Nome do Servo Líder em Treinamento:</label>
+    <input type="text" id="servoTreinamento" name="servoTreinamento">
+
+    <label for="data">Data:</label>
+    <input type="date" id="data" name="data" required>
+
+    <label for="diaSemana">Dia da Semana:</label>
+    <input type="text" id="diaSemana" name="diaSemana" required>
+
+    <label for="presentesFG">Total de Presentes no FG:</label>
+    <input type="number" id="presentesFG" name="presentesFG" required>
+
+    <label for="criancasFG">Total de Crianças no FG:</label>
+    <input type="number" id="criancasFG" name="criancasFG">
+
+    <label for="visitantes">Quantidade de Visitantes:</label>
+    <input type="number" id="visitantes" name="visitantes">
+
+    <label for="palavraPregada">Palavra Pregada:</label>
+    <input type="text" id="palavraPregada" name="palavraPregada" required>
+
+    <label for="oferta">Oferta:</label>
+    <input type="text" id="oferta" name="oferta">
+
+    <label for="supervisorPresente">Supervisor Presente:</label>
+    <input type="text" id="supervisorPresente" name="supervisorPresente">
+
+    <label for="informacoesPessoais">Total de Pessoas no FG</label>
+    <textarea id="informacoesPessoais" name="informacoesPessoais" rows="5" placeholder="Digite os nomes, telefones e aniversários aqui..."></textarea>
+
+    <button type="submit">Enviar pelo WhatsApp</button>
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>
