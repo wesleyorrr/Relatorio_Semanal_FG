@@ -73,7 +73,7 @@ document.getElementById("relatorioForm").addEventListener("submit", (event) => {
     };
   
     // URL do Google Apps Script (substitua pelo URL do seu script)
-    const url = "https://script.google.com/macros/s/AKfycbwKp3YUK0usKVgJXFueExnHmD7lPAymJasLS86gzfbGjPFrY-GrJfCn9fJ6IT1fv3BZ/exec";
+    const url = "https://script.google.com/macros/s/AKfycbyONL5X3NS8aFn3i3Wz_QkORY823DaM1HG_q37hPB2PAZ4IBasvh2bnEIcS_Tnx-Flb/exec";
   
     // Enviar dados usando fetch
     fetch(url, {
